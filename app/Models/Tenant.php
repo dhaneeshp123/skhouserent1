@@ -11,5 +11,7 @@ class Tenant extends \Illuminate\Database\Eloquent\Model
     public $incrementing = false;
 
     protected $keyType = 'string';
+    
+    public $timestamps = false;
 
 }
